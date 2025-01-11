@@ -2,11 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
     
 }
 
 .dashboard {
     background-color: lightblue;
+    color: white;
 }
 
 .right-container {
