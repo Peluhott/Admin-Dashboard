@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100vh;
+    
+}
+
+.dashboard {
+    background-color: lightblue;
+}
+
+.right-container {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: lightgray;
+}
+
+.left-content {
+    display: grid;
+    grid-template-rows: 30px 1fr;
+    gap: 20px;
+}
+
+.right-content {
+    display: grid;
+    grid-template-rows: 30px 1fr 30px 1fr;
+    gap: 20px;
+}
