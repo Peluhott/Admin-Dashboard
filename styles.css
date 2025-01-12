@@ -30,7 +30,9 @@
     grid-template-rows: 1fr 4fr;
 }
 
-.header {
+.header1 {
+  display: grid;
+  grid-template-rows: auto auto;
   
     gap: 10px;
     border: solid black;
@@ -67,6 +69,11 @@
     
 }
 
+.icon3 {
+    width: 60px;
+    height: 60px;
+}
+
 #search-bar {
     width: 300px;
     background-color: #e2e8f0;
@@ -83,3 +90,16 @@ button {
     border: none;
     font-weight: bold;
 }
+
+.first-row,
+.right-header,
+.left-header,
+.second-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 1px 10px;
+    box-sizing: border-box;
+}
+
