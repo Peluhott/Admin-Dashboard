@@ -7,7 +7,7 @@
 }
 
 .dashboard {
-    background-color: lightblue;
+    background-color: #1992d4;
     color: white;
     padding: 20px;
     display: grid;
@@ -31,14 +31,16 @@
 }
 
 .header {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+  
+    gap: 10px;
+    border: solid black;
+    
 }
 
 .content {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color: lightgray;
+    background-color: #e2e8f0;
 }
 
 .left-content {
@@ -59,3 +61,25 @@
     filter: invert(100%);
 }
 
+.icon2 {
+    height: 30px;
+    width: 30px;
+    
+}
+
+#search-bar {
+    width: 300px;
+    background-color: #e2e8f0;
+    border: white;
+    border-radius: 10px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: #1992d4;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
