@@ -9,6 +9,8 @@
 .dashboard {
     background-color: lightblue;
     color: white;
+    padding: 20px;
+    
 }
 
 .right-container {
@@ -37,4 +39,14 @@
     display: grid;
     grid-template-rows: 30px 1fr 30px 1fr;
     gap: 20px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    filter: invert(100%);
+}
+
+.icon-link {
+   gap: 15px;
 }
