@@ -53,6 +53,7 @@
 }
 
 .right-content {
+    
     display: grid;
     grid-template-rows: 30px 1fr 30px 1fr;
     gap: 20px;
@@ -60,8 +61,9 @@
 
 .project {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 400px 400px;
+  
+  grid-template-rows: 300px 300px;
   gap: 30px;
   
  box-sizing: border-box;
@@ -69,14 +71,19 @@
 }
 
 .project-box {
+    place-self: center;
+    display: flex;
+    flex-direction: column;
    background-color: white;
-   height: 200px;
+   height: 230px;
    border-radius: 15px;
    overflow: auto;
    box-sizing: border-box;
-   padding: 10px 10px;
+   padding: 10px 30px;
 }
-
+.icon-group {
+    align-self: flex-end;
+}
 
 
 .icon {
