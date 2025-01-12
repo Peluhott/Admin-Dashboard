@@ -10,8 +10,20 @@
     background-color: lightblue;
     color: white;
     padding: 20px;
+    display: grid;
+    grid-template-rows: 100px 1fr 2fr;
+    gap: 40px;
+    
     
 }
+
+.icon-link {
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+    gap: 10px;
+}
+
 
 .right-container {
     display: grid;
@@ -47,6 +59,3 @@
     filter: invert(100%);
 }
 
-.icon-link {
-   gap: 15px;
-}
